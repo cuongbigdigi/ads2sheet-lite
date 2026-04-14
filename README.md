@@ -12,7 +12,7 @@
 |---|---|
 | 🧠 DataMaster thông minh | Tự động cộng dồn data theo ngày — không ghi đè, không mất lịch sử |
 | 📊 Sẵn sàng cho AI & Dashboard | Data chuẩn cấu trúc, kết nối thẳng vào AI phân tích hoặc Looker Studio |
-| 🏷️ Auto tách Tag từ Ad Name | Tự động tách `Tag 1 \| Tag 2 \| Tag 3` để đo lường theo sản phẩm, content, target |
+
 | 💸 Không tốn thêm phí tool | Thay thế hoàn toàn Syncwith, Supermetrics và các tool kết nối tốn tiền |
 | 🟢 Cập nhật real-time | Đồng bộ dữ liệu FB Ads mỗi 1 giờ, chính xác tức thì |
 | 🌙 Chốt sổ 3h sáng | Tự động bù data 23:00–23:59 bị thiếu |
@@ -51,26 +51,7 @@ DataMaster lưu đầy đủ: **Account ID, Campaign ID, Adset ID, Ad ID, Page I
 - ❌ **Không thể che giấu chi tiêu thực** — mỗi đồng spend đều có timestamp, ID campaign, ID quảng cáo cụ thể
 - ✅ **Chủ doanh nghiệp có toàn bộ bằng chứng** để đối chiếu bất kỳ lúc nào
 
----
 
-## 🏷️ Tự động tách Tag từ Ad Name
-
-Đặt tên quảng cáo đúng chuẩn — tool tự tách thành 3 cột để phân tích sâu:
-
-```
-Ad Name:  "Áo Thun Nam | Video UGC | 25-35 Nam"
-                ↓
-Tag 1:  "Áo Thun Nam"     → Phân tích theo dòng sản phẩm
-Tag 2:  "Video UGC"       → Phân tích theo loại content
-Tag 3:  "25-35 Nam"       → Phân tích theo target audience
-```
-
-Ví dụ phân tích có thể làm ngay:
-- **Sản phẩm nào đang tốt nhất?** → Pivot theo Tag 1
-- **Video hay ảnh hiệu quả hơn?** → Pivot theo Tag 2
-- **Nhóm tuổi nào chuyển đổi tốt hơn?** → Pivot theo Tag 3
-
-> 💡 Chỉ cần đặt tên ad đúng format `Tag 1 | Tag 2 | Tag 3` — công cụ tự động xử lý phần còn lại.
 
 ---
 
