@@ -12,10 +12,40 @@
 |---|---|
 | 🟢 Real-time | Đồng bộ dữ liệu FB Ads về Sheet chính xác, tức thì |
 | 📊 34+ chỉ số | Spend, CPM, CPC, CTR, Reach, Comments, Purchases... |
-| 📋 Báo cáo | Hỗ trợ làm báo cáo và xây dựng Dashboard tự động |
+| 📋 Báo cáo | Hỗ trợ làm báo cáo và xây dựng Dashboard |
 | 🔒 Auto Backup | Tài khoản bị khóa, lịch sử ads cũ vẫn không mất data |
 | 🌙 Chốt sổ 3h sáng | Tự động bù data 23:00–23:59 bị thiếu |
 | 🚀 Giải phóng Ads thủ | Chấm dứt báo cáo thủ công, tập trung phân tích & tối ưu |
+
+---
+
+## 📊 So sánh Lite vs Full
+
+| Tính năng | 🆓 Lite (bản này) | ⭐ Full |
+|---|:---:|:---:|
+| Lấy data FB Ads về Sheet | ✅ | ✅ |
+| 34+ chỉ số hiệu suất | ✅ | ✅ |
+| Chốt sổ tự động 3h sáng | ✅ | ✅ |
+| Số tài khoản quảng cáo | **Tối đa 3** | **Không giới hạn** |
+| Dashboard trực quan | ❌ | ✅ |
+| Cập nhật mỗi 15–30 phút | ❌ | ✅ |
+| **Cảnh báo Email tự động** | ❌ | ✅ |
+| Cảnh báo tài khoản không chi tiêu | ❌ | ✅ |
+| Cảnh báo quảng cáo bị từ chối | ❌ | ✅ |
+| Cảnh báo vượt ngân sách | ❌ | ✅ |
+| Cảnh báo ngưỡng thanh toán | ❌ | ✅ |
+| Quy tắc cảnh báo tùy chỉnh | ❌ | ✅ |
+| Bật/Tắt quảng cáo ngay trên Sheet | ❌ | ✅ |
+| Sửa ngân sách Adset ngay trên Sheet | ❌ | ✅ |
+| Sao lưu Datamaster tự động | ❌ | ✅ |
+| Trích xuất bình luận & email | ❌ | ✅ |
+| Cấu hình cột tag tùy chỉnh | ❌ | ✅ |
+| Hỗ trợ | Cộng đồng | **Ưu tiên** |
+
+> 💬 **Muốn dùng bản Full?** Liên hệ **Hồ Ngọc Cương**:
+> - Facebook: [facebook.com/cuongbigdigi](https://www.facebook.com/cuongbigdigi)
+> - Email: cuongbig.info@gmail.com
+> - Website: [cuongbig.com](https://cuongbig.com)
 
 ---
 
@@ -56,16 +86,17 @@
 
 ```
 ① Nhấn "Advanced" (hoặc "Nâng cao")
-② Nhấn "Go to [tên sheet] (unsafe)" ← Nhấn vào dòng chữ này
+② Nhấn "Go to [tên sheet] (unsafe)"  ← Nhấn vào dòng chữ này
 ③ Xem qua các quyền được yêu cầu
 ④ Nhấn "Allow" (Cho phép)
 ```
 
 > 🔐 **Tại sao phải làm vậy?**
 >
-> Đây **KHÔNG phải** ứng dụng của bên thứ ba. Đây là code do **chính bạn tự cài** vào Sheet của bạn.
-> Google hiển thị cảnh báo vì code chưa qua quy trình xét duyệt chính thức của Google (tốn vài trăm USD và nhiều tuần chờ).
+> Đây **KHÔNG phải** ứng dụng của bên thứ ba. Đây là code do **chính bạn tự cài** vào Sheet của bạn,
+> chạy hoàn toàn trên hạ tầng Google của bạn.
 >
+> Google hiển thị cảnh báo vì code chưa qua quy trình xét duyệt chính thức (tốn vài trăm USD và nhiều tuần).
 > Bạn đang cấp quyền cho **chính Sheet của mình** truy cập **chính tài khoản Google của mình**.
 > Không có bất kỳ dữ liệu nào được gửi ra ngoài. Mã nguồn 100% công khai tại repo này để bạn tự kiểm tra.
 
@@ -87,7 +118,7 @@ Sau khi cấp quyền, dialog **Cài Đặt Ads2Sheet Lite** hiện ra:
 - Nhấn **"Lưu cấu hình & Kích hoạt"**
 - Nhấn **"✅ Đóng cửa sổ"**
 
-✅ **Xong!** Tool sẽ tự động chạy mỗi giờ.
+✅ **Xong!** Tool sẽ tự động chạy theo lịch.
 
 ---
 
@@ -115,8 +146,8 @@ Sau khi cấp quyền, dialog **Cài Đặt Ads2Sheet Lite** hiện ra:
 
 ```
 📊 Ads2Sheet Lite
-  ├── 🚀 Bắt đầu & Cài đặt         ← Cài đặt lần đầu / đổi token / đổi tài khoản
-  ├── 📊 Cập nhật dữ liệu hôm nay  ← Lấy data ngay lập tức
+  ├── 🚀 Bắt đầu & Cài đặt          ← Cài đặt lần đầu / đổi token / đổi tài khoản
+  ├── 📊 Cập nhật dữ liệu hôm nay   ← Lấy data ngay lập tức
   ├── 📅 Cập nhật dữ liệu trước đây ← Chọn khoảng ngày tùy ý, lấy data lịch sử
   └── ⭐ By Hồ Ngọc Cương
         └── ℹ️ Thông tin & Góp ý
@@ -137,6 +168,7 @@ Sau khi cấp quyền, dialog **Cài Đặt Ads2Sheet Lite** hiện ra:
 
 - Tối đa **3 tài khoản** quảng cáo đồng thời
 - Token Facebook cần làm mới khi hết hạn (~60 ngày)
+- Không có Dashboard, cảnh báo email, hay các tính năng nâng cao
 
 ---
 
