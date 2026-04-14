@@ -1,0 +1,14 @@
+# Python scripts (chỉ dùng để generate .gs, không cần push lên)
+fix_vi.py
+fix_vi2.py
+fix_close.py
+write_gs.py
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.swp
