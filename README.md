@@ -6,16 +6,60 @@
 
 ---
 
-## ✨ Tính năng
+## ✨ Tính năng nổi bật
 
 | Tính năng | Chi tiết |
 |---|---|
-| 🟢 Real-time | Đồng bộ dữ liệu FB Ads về Sheet chính xác, tức thì |
-| 📊 34+ chỉ số | Spend, CPM, CPC, CTR, Reach, Comments, Purchases... |
-| 📋 Báo cáo | Hỗ trợ làm báo cáo và xây dựng Dashboard |
-| 🔒 Auto Backup | Tài khoản bị khóa, lịch sử ads cũ vẫn không mất data |
+| 🧠 DataMaster thông minh | Tự động cộng dồn data theo ngày — không ghi đè, không mất lịch sử |
+| 📊 Sẵn sàng cho AI & Dashboard | Data chuẩn cấu trúc, kết nối thẳng vào AI phân tích hoặc Looker Studio |
+| 🏷️ Auto tách Tag từ Ad Name | Tự động tách `Tag 1 \| Tag 2 \| Tag 3` để đo lường theo sản phẩm, content, target |
+| 💸 Không tốn thêm phí tool | Thay thế hoàn toàn Syncwith, Supermetrics và các tool kết nối tốn tiền |
+| 🟢 Cập nhật real-time | Đồng bộ dữ liệu FB Ads mỗi 1 giờ, chính xác tức thì |
 | 🌙 Chốt sổ 3h sáng | Tự động bù data 23:00–23:59 bị thiếu |
-| 🚀 Giải phóng Ads thủ | Chấm dứt báo cáo thủ công, tập trung phân tích & tối ưu |
+| 🔒 Auto Backup | Tài khoản bị khóa, lịch sử ads cũ vẫn không mất data |
+| 🚀 Giải phóng báo cáo thủ công | Chấm dứt copy-paste, tập trung phân tích & tối ưu |
+
+---
+
+## 🧠 Vì sao DataMaster là điểm khác biệt?
+
+Hầu hết các tool sync dữ liệu chỉ **ghi đè** — mỗi lần chạy là xóa hết và viết lại từ đầu. Ads2Sheet hoạt động khác hoàn toàn:
+
+```
+Ngày 1 chạy → Lưu data ngày 1
+Ngày 2 chạy → Cộng data ngày 2 VÀO, không xóa ngày 1
+Ngày 3 chạy → Tiếp tục cộng dồn...
+```
+
+**Kết quả:** Sheet `datamaster` là kho dữ liệu lịch sử liên tục, tự động grow mỗi ngày.
+
+Từ đó có thể:
+- 🤖 **AI phân tích**: Kết nối thẳng dữ liệu cho Gemini/ChatGPT phân tích xu hướng
+- 📈 **Dashboard tự động**: Kéo thẳng vào Looker Studio, Google Charts không cần bước trung gian
+- 📋 **Báo cáo tức thì**: Sheet luôn có data đầy đủ từ ngày đầu tiên đến hôm nay
+
+**Không cần Syncwith ($30/tháng), Supermetrics ($99/tháng), hay bất kỳ tool nào khác.**
+
+---
+
+## 🏷️ Tự động tách Tag từ Ad Name
+
+Đặt tên quảng cáo đúng chuẩn — tool tự tách thành 3 cột để phân tích sâu:
+
+```
+Ad Name:  "Áo Thun Nam | Video UGC | 25-35 Nam"
+                ↓
+Tag 1:  "Áo Thun Nam"     → Phân tích theo dòng sản phẩm
+Tag 2:  "Video UGC"       → Phân tích theo loại content
+Tag 3:  "25-35 Nam"       → Phân tích theo target audience
+```
+
+Ví dụ phân tích có thể làm ngay:
+- **Sản phẩm nào đang tốt nhất?** → Pivot theo Tag 1
+- **Video hay ảnh hiệu quả hơn?** → Pivot theo Tag 2
+- **Nhóm tuổi nào chuyển đổi tốt hơn?** → Pivot theo Tag 3
+
+> 💡 Chỉ cần đặt tên ad đúng format `Tag 1 | Tag 2 | Tag 3` — công cụ tự động xử lý phần còn lại.
 
 ---
 
