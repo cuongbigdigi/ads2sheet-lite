@@ -40,6 +40,17 @@ Từ đó có thể:
 
 **Không cần Syncwith ($30/tháng), Supermetrics ($99/tháng), hay bất kỳ tool nào khác.**
 
+### 🔍 Minh bạch & Kiểm soát nhân viên
+
+DataMaster lưu đầy đủ: **Account ID, Campaign ID, Adset ID, Ad ID, Page ID** và toàn bộ chi tiêu theo từng ngày.
+
+Điều đó có nghĩa là:
+
+- ❌ **Nhân viên không thể chạy ads trên Page lạ rồi xóa** — Page ID được ghi lại vĩnh viễn, chủ biết ngay quảng cáo chạy trên Page nào
+- ❌ **Không thể báo "tài khoản bị khóa, mất data"** — lịch sử chi tiêu đã được lưu độc lập vào Sheet, tài khoản khóa hay xóa cũng không ảnh hưởng
+- ❌ **Không thể che giấu chi tiêu thực** — mỗi đồng spend đều có timestamp, ID campaign, ID quảng cáo cụ thể
+- ✅ **Chủ doanh nghiệp có toàn bộ bằng chứng** để đối chiếu bất kỳ lúc nào
+
 ---
 
 ## 🏷️ Tự động tách Tag từ Ad Name
