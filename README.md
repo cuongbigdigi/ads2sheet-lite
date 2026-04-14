@@ -38,7 +38,6 @@
 | Bật/Tắt quảng cáo ngay trên Sheet | ❌ | ✅ |
 | Sửa ngân sách Adset ngay trên Sheet | ❌ | ✅ |
 | Sao lưu Datamaster tự động | ❌ | ✅ |
-| Trích xuất bình luận & email | ❌ | ✅ |
 | Cấu hình cột tag tùy chỉnh | ❌ | ✅ |
 | Hỗ trợ | Cộng đồng | **Ưu tiên** |
 
