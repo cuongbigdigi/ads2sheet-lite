@@ -21,9 +21,10 @@
 
 ## 📦 Hướng dẫn cài đặt
 
-### Bước 1 — Tạo Google Sheet mới
+### Bước 1 — Chuẩn bị Google Sheet
 
-- Vào [Google Sheets](https://sheets.google.com) → tạo một **Sheet trắng mới**
+- Vào [Google Sheets](https://sheets.google.com) → tạo một **Sheet mới** hoặc dùng file Sheet cũ đều được
+- 💡 **Khuyến nghị:** Nên tạo một file Sheet riêng để dễ quản lý và tránh ảnh hưởng dữ liệu hiện có
 
 ---
 
